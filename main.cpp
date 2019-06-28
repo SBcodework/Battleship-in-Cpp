@@ -27,7 +27,7 @@ int main()
     Player User;  // Note: calling it as <Player User()> raises error
     Player Bot;
     User.dualdisp(Bot);
-    for(int cont = 1, ustate, bstate ,x, y, cord; cont; )
+    for(int cont = 1, ustate, bstate , x, y, cord; cont; )
     {
         //std::cout << "Select a valid spot...\n";
         /*for(;;)
@@ -55,7 +55,7 @@ int main()
         std::cin >> x;
         std::cout << "Y? ";
         std::cin >> y;
-        cord = x + (y*10);
+        cord = x + (y * 10);
         ustate = Bot.fire(cord);
         User.dualdisp(Bot);
         if (ustate == 6) { break; }
