@@ -31,12 +31,12 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <time.h>
 #include <cstdlib>
 #include "common.h"
-#include "Player.h"
+#include "Player.h" /*
 #ifndef _WIN32_WINNT
 #define _WIN32_WINNT 0x0500 // Important to arrange this above windows.h inclusion
 #endif // _WIN32_WINNT
 #include <windows.h> // See above
-#include <wincon.h>
+#include <wincon.h> */
 
 int main()
 {
